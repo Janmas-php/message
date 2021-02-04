@@ -1,0 +1,21 @@
+{
+    "name": "janmas/message",
+    "description": "基于tp的消息服务管理",
+    "authors": [
+        {
+            "name": "Janmas CromWell",
+            "email": "janmas@126.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "v6.2.0",
+        "janmas/sms": "dev-main",
+        "topthink/think-orm": "^2.0",
+        "topthink/think-migration": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Janmas\\Message\\": "src/"
+        }
+    }
+}
