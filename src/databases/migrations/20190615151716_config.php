@@ -11,7 +11,7 @@
 use think\migration\Migrator;
 use think\migration\db\Column;
 
-class Config extends \think\migration\command\Migrate
+class Config extends Migrator
 {
 	public  function  change()
 	{
